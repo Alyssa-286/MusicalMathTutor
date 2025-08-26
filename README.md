@@ -31,8 +31,8 @@ The script will ask for a math concept and then generate the final video as `fin
 
 - Create a file named `.env` in the root directory.
 - Add your API keys in `KEY=VALUE` format:
-  `     OPENAI_API_KEY="your_openai_key"
-     ELEVENLABS_API_KEY="your_elevenlabs_key"
-    `
+  `    OPENAI_API_KEY="your_openai_key"
+   ELEVENLABS_API_KEY="your_elevenlabs_key"
+ `
   **5. Install FFmpeg:**
   This project requires FFmpeg for video processing. Please [install it](https://ffmpeg.org/download.html) and ensure it's in your system's PATH.

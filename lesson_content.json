@@ -1,0 +1,45 @@
+{
+    "title": "Calculus in Action: Real-World Applications",
+    "concept": "Applications of Calculus",
+    "grade_level": "high school",
+    "narrator_script": "Hey mathletes!  Calculus \u2013 it sounds intimidating, right? But it's actually all around us!  Forget dusty textbooks; calculus is the secret sauce behind everything from designing roller coasters to predicting the spread of diseases.  Today, we're diving into some cool applications. We'll see how derivatives help us find the maximum profit, and integrals let us calculate areas and volumes.  Think of it like this: derivatives tell us about *instantaneous* change \u2013 like the speed of your car at any given moment. Integrals deal with *accumulation* \u2013 like the total distance you've traveled.  We'll explore real-world scenarios to show you exactly how powerful this math is!  Get ready to be amazed!",
+    "lyrics": "Calculus, oh calculus, so much to explore,\nDerivatives for slopes, and integrals for more.\nFinding max and min, areas underneath,\nSolving real-world problems, from head to feet!\nVelocity and acceleration, change over time,\nCalculus, oh calculus, truly sublime!\nOptimization problems, that make our day,\nCalculus is here to show us the way!",
+    "key_points": [
+        "Derivatives measure instantaneous rates of change (e.g., velocity, acceleration).",
+        "Integrals calculate accumulated quantities (e.g., area, volume, total distance).",
+        "Calculus is used in various fields, including physics, engineering, economics, and medicine."
+    ],
+    "examples": [
+        {
+            "problem": "A company's profit function is given by P(x) = -x\u00b2 + 100x - 200, where x is the number of units sold. Find the number of units that maximizes profit.",
+            "solution": "1. Find the derivative: P'(x) = -2x + 100\n2. Set the derivative to zero: -2x + 100 = 0\n3. Solve for x: x = 50\n4. Verify it's a maximum (second derivative test: P''(x) = -2, which is negative, indicating a maximum).  Therefore, selling 50 units maximizes profit.",
+            "visual_cue": "Graph of the parabola representing the profit function, highlighting the vertex (maximum) at x=50."
+        },
+        {
+            "problem": "Find the area under the curve y = x\u00b2 from x = 0 to x = 2.",
+            "solution": "1. Set up the definite integral: \u222b\u2080\u00b2 x\u00b2 dx\n2. Find the antiderivative: (1/3)x\u00b3\n3. Evaluate the antiderivative at the limits of integration: [(1/3)(2)\u00b3] - [(1/3)(0)\u00b3] = 8/3\nTherefore, the area under the curve is 8/3 square units.",
+            "visual_cue": "Animation showing the curve y=x\u00b2 and the shaded area from x=0 to x=2, gradually filling in as the integration is performed."
+        }
+    ],
+    "manim_commands": [
+        "Create title animation with a dynamic graph in the background",
+        "Show definitions of derivative and integral with highlighted keywords",
+        "Animate the first example with a step-by-step solution and graph transformation",
+        "Display the power rule of differentiation and fundamental theorem of calculus visually",
+        "Animate the second example with area shading and calculation steps",
+        "Show a summary slide with key points and real-world application images (e.g., rocket launch, medical scan, economic graph)",
+        "End with practice problems and their solutions displayed one by one"
+    ],
+    "difficulty": "intermediate",
+    "duration_minutes": 30,
+    "practice_problems": [
+        {
+            "question": "Find the minimum value of the function f(x) = x\u00b3 - 6x\u00b2 + 9x + 2.",
+            "answer": "Find the critical points by setting the derivative f'(x) = 3x\u00b2 - 12x + 9 = 0.  Solving gives x = 1 and x = 3. Using the second derivative test (f''(x) = 6x - 12), we find that x = 3 is a minimum. Substituting x = 3 into f(x) gives the minimum value f(3) = 2."
+        },
+        {
+            "question": "Find the area bounded by the curve y = x, the x-axis, and the lines x = 1 and x = 3.",
+            "answer": "Set up the definite integral: \u222b\u2081\u00b3 x dx. The antiderivative is (1/2)x\u00b2. Evaluating at the limits gives [(1/2)(3)\u00b2] - [(1/2)(1)\u00b2] = 4 square units."
+        }
+    ]
+}

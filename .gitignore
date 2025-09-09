@@ -1,14 +1,24 @@
-# Environment variables
-.env
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
 
-# Manim output
-/media/
-/output/
+# Secrets - NEVER commit your API keys
+.env
 
-# Video and audio files
-*.mp3
-*.mp4
+# Generated Media Files
+media/
+final_lesson_*.mp4
+voiceover_*.mp3
+lesson_content_*.json
+test_write_permissions.tmp
+
+# IDE / OS specific
+.idea/
+.vscode/
+.DS_Store
